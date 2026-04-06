@@ -1,0 +1,27 @@
+# Topological–Geometrical Descriptor (TGD) for 2D Carbon Systems
+
+This repository provides an implementation of the **Topological–Geometrical Descriptor (TGD)**, a physically interpretable descriptor designed for **two-dimensional sp/sp² carbon systems**.
+
+The TGD maps atomic structures into a compact set of **topological and geometrical observables** derived from the planar bonding graph and its ring statistics. It was developed to characterize systems such as graphene, defect-rich carbon allotropes, and porous 2D carbon networks.
+
+The repository includes:
+
+- `descritor.py`: code to generate the TGD from crystal structures in `.cif` format
+- `structure/`: example structural database with representative carbon systems
+- an interpretability code to read the generated descriptors and create figures for structural analysis
+
+## Repository structure
+
+```bash
+.
+├── descritor.py
+├── interpretability.py
+├── structure/
+│   ├── graphene.cif
+│   ├── phagraphene.cif
+│   └── cey_graphene.cif
+├── output/
+│   ├── descriptors/
+│   └── figures/
+├── requirements.txt
+└── README.md
