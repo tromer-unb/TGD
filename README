@@ -1,16 +1,20 @@
-# Topological–Geometrical Descriptor (TGD) for 2D Carbon Systems
+# **Topological–Geometrical Descriptor (TGD) for 2D Carbon Systems**
 
-This repository provides an implementation of the **Topological–Geometrical Descriptor (TGD)**, a physically interpretable descriptor designed for **two-dimensional sp/sp² carbon systems**.
+This repository provides an implementation of the **Topological–Geometrical Descriptor (TGD)**, a **physically interpretable**, **topology-aware**, and **geometry-informed** descriptor specifically designed for **two-dimensional sp/sp² carbon systems**.
 
-The TGD maps atomic structures into a compact set of **topological and geometrical observables** derived from the planar bonding graph and its ring statistics. It was developed to characterize systems such as graphene, defect-rich carbon allotropes, and porous 2D carbon networks.
+The **TGD** maps atomistic structures into a compact and meaningful set of **topological** and **geometrical observables** extracted from the **planar bonding graph** and its associated **ring statistics**. In contrast to purely abstract numerical encodings, the descriptor is explicitly constructed to preserve direct correspondence with the **bonding topology**, **ring organization**, **defect physics**, and **geometric heterogeneity** of the lattice.
+
+It was developed to characterize a broad class of carbon-based materials, including **graphene**, **defect-rich carbon allotropes**, and **porous 2D carbon networks**, while maintaining a strong emphasis on **interpretability**, **physical consistency**, and **structural insight**.
+
+## **Main contents of this repository**
 
 The repository includes:
 
-- `descriptor_TGD.py`: code to generate the TGD from crystal structures in `.cif` format
-- `structure/`: example structural database with representative carbon systems
-- an interpretability code to read the generated descriptors and create figures for structural analysis
+- **`descriptor_TGD.py`**: main code for generating the **TGD** directly from crystal structures in **`.cif`** format
+- **`structure/`**: example structural database containing representative **2D carbon systems**
+- **`interpretability.py`**: post-processing and interpretability analysis code for reading the generated descriptors and producing figures for structural analysis
 
-## Repository structure
+## **Repository structure**
 
 ```bash
 .
@@ -21,7 +25,7 @@ The repository includes:
 │   ├── phagraphene.cif
 │   └── cey_graphene.cif
 ├── output/
-│   ├── descriptors.csv 
+│   ├── descriptors.csv
 │   └── postprocessing/
 ├── requirements.txt
 └── README.md
