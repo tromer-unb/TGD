@@ -21,7 +21,7 @@ The repository includes:
 │   ├── phagraphene.cif
 │   └── cey_graphene.cif
 ├── output/
-│   ├── descriptors/
-│   └── figures/
+│   ├── descriptors.csv 
+│   └── postprocessing/
 ├── requirements.txt
 └── README.md
