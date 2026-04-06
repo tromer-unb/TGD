@@ -6,7 +6,7 @@ The TGD maps atomic structures into a compact set of **topological and geometric
 
 The repository includes:
 
-- `descritor.py`: code to generate the TGD from crystal structures in `.cif` format
+- `descriptor_TGD.py`: code to generate the TGD from crystal structures in `.cif` format
 - `structure/`: example structural database with representative carbon systems
 - an interpretability code to read the generated descriptors and create figures for structural analysis
 
