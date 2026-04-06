@@ -14,7 +14,7 @@ The repository includes:
 
 ```bash
 .
-├── descritor.py
+├── descriptor_TGD.py
 ├── interpretability.py
 ├── structure/
 │   ├── graphene.cif
