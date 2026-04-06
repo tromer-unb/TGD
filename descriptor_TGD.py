@@ -9,7 +9,6 @@ from collections import defaultdict
 # ============================================================
 # CONFIGURATION
 # ============================================================
-STRUCT_DIR = "/home/tromer/Carbon_allotropes/fourier/descritor/juncao/structures/"
 OUT_CSV = "descriptors.csv"
 
 Nx, Ny = 10, 10                  # supercell
